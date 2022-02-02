@@ -1,6 +1,13 @@
 {
   "name": "react-typescript-boilerplate",
   "version": "0.1.0",
+  "author": "Tomislav Perić <tomislavperich@protonmail.com>",
+  "homepage": "https://github.com/tperich/react-typescript-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tperich/react-typescript-boilerplate"
+  },
+  "license": "GPL-3.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
