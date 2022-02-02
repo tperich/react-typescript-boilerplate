@@ -31,4 +31,6 @@ Make sure you have docker and docker-compose installed!
 
  - [ ] Improve docker compose files (better support for production)
  - [ ] Add support for .env files as a main point of config
+ - [ ] Write unit tests with Jest
+ - [ ] Write integration tests with Jest
  - [ ] Add .github-actions.yml and Jenkinsfile example files
