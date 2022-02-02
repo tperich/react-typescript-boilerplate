@@ -9,18 +9,20 @@ const App: FC = () => {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
+        <header className="header">
           <p>Hello world!</p>
 
-          <Link to="/">Home</Link>
-          <Link to="/login">Login</Link>
+          <div className="header__links">
+            <Link to="/">Home</Link>
+            <Link to="/login">Login</Link>
+          </div>
         </header>
-      </div>
 
-      <Routes>
-        <Route path="/" element={Home} />
-        <Route path="/login" element={Login} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </div>
     </Router>
   );
 };
