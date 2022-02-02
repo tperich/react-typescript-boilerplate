@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  react-typescript-boilerplate:
+    container_name: react-typescript-boilerplate-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    volumes:
+      - '.:/app'
+    ports:
+      - '80:80'
+    environment:
+      - NODE_ENV=production
