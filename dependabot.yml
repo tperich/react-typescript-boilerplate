@@ -1,0 +1,9 @@
+version: 2
+
+  - package-ecosystem: npm
+    directory: "."
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+      time: "13:00"
+      timezone: "Europe/Belgrade"
